@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: rgb(152, 53, 124);
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+.active{
+    background-color: #f3eb10;
+}
+a:hover{
+    color: rgb(228, 58, 10);
+}
+main{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 1px 1px 10px 10px #f3eb10 ;
+}
+form{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(152, 53, 124, 0.744);
+    margin: auto;
+    position: relative;
+}
+p{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+.name{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.email{
+    position: absolute;
+    top: 130px;
+    left: 260px;
+}
+.subject{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 360px;
+    height: 50px;
+}
+.message{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    width: 360px;
+    height: 50px;
+}
+.btn{
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    background-color: rgb(152, 53, 124);
+    width: 360px;
+    height: 50px;
+    box-shadow: 1px 1px 5px 5px #f3eb10;
+    border: none;
+}
+section{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 130px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+

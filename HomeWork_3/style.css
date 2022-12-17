@@ -1,0 +1,19 @@
+#seven-paragraph{
+    border: 3px solid blue;
+    font-size: 35px;
+    font-weight: bold;
+}
+.new-style{
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.style{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+.one{
+    color: red;
+}

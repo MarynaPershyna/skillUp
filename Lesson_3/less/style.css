@@ -1,0 +1,36 @@
+p{
+    color: red !important;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.blue{
+    color: blue;
+    font-family: 'Kenia', cursive;
+    
+
+}
+#yellow{
+    color: yellow;
+}
+section{
+    border: 1px solid black;
+}
+div:nth-child(3){
+    color: red;
+}
+div:first-child{
+    color: aquamarine;
+}
+div::first-line{
+    font-size: 30px;
+}
+
+div::before{
+    content: 'hello';
+}
+div::after{
+    content: 'hello';
+}
+div:hover{
+    color: chartreuse;
+}

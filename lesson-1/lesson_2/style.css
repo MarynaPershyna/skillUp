@@ -1,0 +1,11 @@
+p{
+    color: rgb(93, 163, 156);
+    font-size: 35px;
+    font-style: italic;
+}
+.second-line{
+    color: black;
+}
+#third-line{
+    color: blue;
+}

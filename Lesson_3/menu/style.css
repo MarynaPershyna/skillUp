@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: #333;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+.active{
+    background-color: red;
+}
+a:hover{
+    color: aqua;
+}
+main{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 1px 1px 10px 10px red ;
+}
+form{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    margin: auto;
+    position: relative;
+}
+p{
+    margin-left: 50px;
+}
+.name{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.email{
+    position: absolute;
+    top: 130px;
+    left: 260px;
+}
+.subject{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 360px;
+    height: 50px;
+}
+.message{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    width: 360px;
+    height: 50px;
+}
+.btn{
+    position: absolute;
+    top: 310px;
+    left: 50px;
+    background-color: red;
+    width: 360px;
+    height: 50px;
+}
+section{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 130px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+}
+.two{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 800px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+div{
+    
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.one{
+    
+    background-color: aqua;
+}
+.two{
+    background-color: blueviolet;
+}
+.three{
+    background-color: brown;
+}
+.four{
+    background-color: azure;
+}
+.five{
+    background-color: coral;
+}
+.six{
+    background-color: crimson;
+}
+.seven{
+    background-color: darkgoldenrod;
+}
