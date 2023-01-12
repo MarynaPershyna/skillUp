@@ -88,7 +88,10 @@ let users = [
 
 
 
-const getUserNames = users.map((item) => {
-    return item.name;
-})
+// const getUserNames = users.map((item) => {
+//     return item.name;
+// })
+// console.log(getUserNames);
+
+const getUserNames = users.map(({name}) => {return name})
 console.log(getUserNames);
