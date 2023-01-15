@@ -86,10 +86,10 @@ let users = [
     },
   ];
   
+ 
   
-  
-  const getUsersWithEyeColor = users.map((item)=> {
-    return item.name, item.eyeColor;
+  const getUsersWithEyeColor = users.filter((users) => {
+   return users.eyeColor === "blue";
   });
   
   console.log(getUsersWithEyeColor); 
