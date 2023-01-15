@@ -86,9 +86,19 @@ let users = [
     },
   ];
 
-  const getUsersWithGender = users.filter((users) => {
-    return users.gender === "male";
-  });
+//   const getUsersWithGender = users.filter((users) => {
+//     return users.gender === 'male';
+//   })
+//   .map((users) => {
+//     return users.name ;
+//   })
   
-  console.log(getUsersWithGender); 
-  // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+//   console.log(getUsersWithGender)
+
+
+  const getUsersWithGender = users
+  .filter(({gender}) => gender === 'male')
+  
+  .map(({name}) => name)
+  
+  console.log(getUsersWithGender)
