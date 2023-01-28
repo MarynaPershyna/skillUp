@@ -95,3 +95,5 @@ let users = [
   console.log(getUsersWithEyeColor); 
   
   // [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Carey Barr]
+
+  

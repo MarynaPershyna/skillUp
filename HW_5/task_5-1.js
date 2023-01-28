@@ -93,5 +93,5 @@ let users = [
 // })
 // console.log(getUserNames);
 
-const getUserNames = users.map(({name}) => {return name})
+const getUserNames = users.map(({name}) => name)
 console.log(getUserNames);
