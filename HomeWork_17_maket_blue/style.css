@@ -58,9 +58,9 @@ body {
 }
 .menu li{
   width: 25%;
-  border-left: 1px solid #2c71b8;
+  
 }
-.menu li:last-child{
+.menu li:last-child > a{
   border-right: 1px solid #2c71b8;
 }
 .menu a{
@@ -71,11 +71,83 @@ body {
   text-decoration: none;
   font-size: 21px;
   color: #2c71b8;
+  border-left: 1px solid #2c71b8;
 }
 .menu a:hover{
 background-color: #2c71b8;
 color: white;
 }
+li{
+  position: relative;
+}
+li > ul{
+  position: absolute;
+  top: 50px;
+  display: none;
+  
+}
+li:hover > ul{
+  display: block;
+  
+  
+}
+
+.littleMenu a{
+  background: #2c71b8;
+  width: 285px;
+  color: white;
+}
+.littleMenu a:hover{
+  background-color: white;
+  color: #2c71b8;
+}
+.d-flex{
+  display: flex;
+}
+.search{
+  display: flex;
+  margin-top: 5px;
+  color: #2c71b8;
+  border: 1px solid #2c71b8;
+  width: 200px;
+  height: 40px;
+  
+}
+input{
+  border: none;
+  width: 165px;
+  height: 40px;
+  outline: none;
+  background: transparent;
+  
+}
+.srch::placeholder{
+  color: #2c71b8;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+.btn{
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #2c71b8;
+  border: none;
+}
+.cart{
+  display: flex;
+  margin-top: 5px;
+ 
+}
+.btnCart{
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-left: 30px;
+  
+}
+
 
 
 
